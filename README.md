@@ -1,4 +1,5 @@
-# LLM-Quantization
+# LLM - Optimizing Large Language Model Inference
+
 
 This project aims to optimize the inference process of Large Language Models (LLM), particularly the LLAMA 2 model developped by Meta, by implementing and analyzing 8-bit quantization techniques. The project will explore the how transformers and causal transformers function with regards to LLaMA models, as well as the hardware and computational aspects of the the LLAMA 2 model, focusing on reducing computational time while maintaining model performance.
 
