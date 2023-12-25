@@ -34,7 +34,7 @@ Requirements:
     - tqdm
     - sentencepiece
 
-- LLaMA 2 - 7B model for inference. This model can be found at "https://ai.meta.com/llama/". The model in question should be requested, after which Meta should send an email with a confirmation link. The model is then downloadable via the computer's terminal using said confirmation link. 
+- LLaMA 2 - 7B model for inference. This model can be found at "https://ai.meta.com/llama/". The model in question should be requested, after which Meta should send an email with a confirmation link. The model is then downloadable via the computer's terminal using said confirmation link. The resulting file should be called 'consolidated.00.pth'. 
 
 
 
