@@ -2,7 +2,7 @@
 
 This project aims to optimize the inference process of Large Language Models (LLM), particularly the LLAMA 2 model developped by Meta, by implementing and analyzing 8-bit quantization techniques. The project will explore the how transformers and causal transformers function with regards to LLaMA models, as well as the hardware and computational aspects of the the LLAMA 2 model, focusing on reducing computational time while maintaining model performance.
 
-This project is comprised of:
+**This project is comprised of:**
     
 - REPORT.md: A technical report detailing the theoretical aspects of transformers within LLaMA large language models, and 8-bit quantization. A detailed explanation of how transformers and causal transformers function within LLaMA models. The concept of 8-bit quantization is also explained. 
 
@@ -26,7 +26,7 @@ This project is comprised of:
     - tokenizer.py: 
         Tokenizer model, as found on the "FacebookReaserch" GitHub.
         
-Requirements:
+**Requirements:**
 
 - Python Packages:
     - torch
@@ -36,5 +36,17 @@ Requirements:
 
 - LLaMA 2 - 7B model for inference. This model can be found at "https://ai.meta.com/llama/". The model in question should be requested, after which Meta should send an email with a confirmation link. The model is then downloadable via the computer's terminal using said confirmation link. The resulting file should be called 'consolidated.00.pth'. 
 
+
+**References:**
+
+- https://www.youtube.com/watch?v=oM4VmoabDAI&ab_channel=UmarJamil
+- https://github.com/facebookresearch/llama/blob/main/llama/model.py
+- https://huggingface.co/blog/hf-bitsandbytes-integration#:~:text=In%20essence%2C%20LLM.,the%20non%2Doutliers%20in%20int8.
+- https://arxiv.org/pdf/1910.07467.pdf
+- https://arxiv.org/pdf/2104.09864.pdf
+- https://arxiv.org/pdf/1706.03762.pdf
+- https://github.com/TimDettmers/bitsandbytes/blob/main/examples/int8_inference_huggingface.py
+- https://arxiv.org/abs/2208.07339
+- https://arxiv.org/abs/2307.09288
 
 
